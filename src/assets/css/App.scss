@@ -559,19 +559,21 @@ a {
 .bannersc {
  
   // background: url(../img/moon_bg.svg) no-repeat center -100px;
-//   &::before {
-//     content: "";
-//     position: absolute;
-//     top: 0;
-//     left: 0;
-//     right: 0;
-//     bottom: 0;
-//     display: block;
-//     background: url(../img/moon_bg.svg) no-repeat center -100px;
-//     z-index: -1;
-//     min-height: 100vh;
-//     height: 1500px;
-// }
+.container{
+  position: relative;
+  z-index: 1;
+}
+
+}
+body{
+  overflow-x: hidden;
+}
+.tknmcs_sc{
+  overflow: hidden;
+  .MuiGrid-root.MuiGrid-container
+  {
+    overflow: hidden;
+  }
 }
 .bnnr_sc01 {
   padding-top: 80px;

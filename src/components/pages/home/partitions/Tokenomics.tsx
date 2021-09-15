@@ -12,7 +12,7 @@ const textData = [
       properties: [
         {
           startValue: 70,
-          endValue: -20,
+          endValue: 0,
           unit: 'px',
           property: 'translateX',
 

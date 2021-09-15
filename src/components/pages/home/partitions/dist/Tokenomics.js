@@ -11,8 +11,8 @@ var textData = [
         duration: '350',
         properties: [
             {
-                startValue: 70,
-                endValue: 0,
+                startValue: 20,
+                endValue: -10,
                 unit: 'px',
                 property: 'translateX'
             }

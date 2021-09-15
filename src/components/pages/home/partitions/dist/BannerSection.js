@@ -5,9 +5,25 @@ var core_1 = require("@material-ui/core");
 var react_bootstrap_1 = require("react-bootstrap");
 var react_scroll_1 = require("react-scroll");
 var ContentCopy_1 = require("@material-ui/icons/ContentCopy");
+var react_plx_1 = require("react-plx");
+var moon = [
+    {
+        start: 'self',
+        duration: '1500',
+        properties: [
+            {
+                startValue: 0,
+                endValue: 600,
+                unit: 'px',
+                property: 'translateY'
+            },
+        ]
+    }
+];
 function BannerSection() {
     return (react_1["default"].createElement(react_1["default"].Fragment, null,
         react_1["default"].createElement(core_1.Box, { className: 'bannersc' },
+            react_1["default"].createElement(react_plx_1["default"], { className: 'img', parallaxData: moon }, " "),
             react_1["default"].createElement(react_bootstrap_1.Container, null,
                 react_1["default"].createElement(core_1.Grid, { container: true, spacing: 2, justifyContent: 'center' },
                     react_1["default"].createElement(core_1.Grid, { item: true, xs: 12 },

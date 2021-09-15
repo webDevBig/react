@@ -565,14 +565,26 @@ a {
 }
 
 }
-body{
-  overflow-x: hidden;
+// body{
+//   overflow-x: hidden;
+// }
+.about_sc {
+  overflow: hidden;
 }
 .tknmcs_sc{
   overflow: hidden;
   .MuiGrid-root.MuiGrid-container
   {
     overflow: hidden;
+  }
+}
+@media screen and (max-width: 425px) {
+  .tknmcs_sc
+  {
+    .MuiGrid-root.MuiGrid-item
+    {
+      margin: 0 0 0 25px;
+    }
   }
 }
 .bnnr_sc01 {
@@ -816,8 +828,8 @@ body{
     padding-top: 50px;
   }
   .bannersc {
-    background: url(../img/moon_bg.png) no-repeat center 4%;
-    background-size: 745px;
+    // background: url(../img/moon_bg.png) no-repeat center 4%;
+    // background-size: 745px;
   }
   .bnnr_sc01 h1 {
     font-size: 26px;

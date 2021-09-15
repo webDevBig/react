@@ -13,7 +13,7 @@ const moon = [
       properties: [
         {
           startValue: 0,
-          endValue: 400,
+          endValue: 600,
           unit: 'px',
           property: 'translateY',
         },

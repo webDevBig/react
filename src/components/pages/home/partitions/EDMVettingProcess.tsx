@@ -6,10 +6,10 @@ import Plx from 'react-plx';
 const textData = [
     {
       start: 'self',
-      duration: '270',
+      duration: '370',
       properties: [
         {
-          startValue: 200,
+          startValue: 400,
           endValue: 0,
           unit: 'px',
           property: 'translateY',
@@ -20,7 +20,7 @@ const textData = [
   const textData1 = [
     {
       start: 'self',
-      duration: '250',
+      duration: '450',
       properties: [
         {
           startValue: 300,

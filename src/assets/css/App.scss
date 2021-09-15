@@ -271,6 +271,23 @@ a {
     // top: 5px;
   }
 }
+.logo_box
+{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width:205px;
+}
+.logo_box img{
+  max-width:100%;
+  width:100%;
+  margin:0 0 0 10px;
+}
+.logo_box img.logo_icon
+{
+  width:45px;
+  margin:0px;
+}
 .cstm_menu {
   .navbar-nav {
     a {
@@ -820,6 +837,41 @@ a {
   .def_btn_thrd_a {height: 42px;}
 }
 @media screen and (max-width: 575px) {
+  .logo_box {
+    width: 150px;
+  }
+  .logo_box img.logo_icon
+    {
+      width: 28px;
+    }
+  
+    .bnnr_sc03[data-aos][data-aos][data-aos-delay="2100"].aos-animate
+    {
+      transition-delay: 0.3s!important;
+    }
+    .about_imgsc[data-aos][data-aos][data-aos-delay="1000"].aos-animate
+    {
+      transition-delay: 0.7s;
+    }
+    .circle_pro {
+      .crclegrp_img
+      {
+        margin-bottom: 20px;
+        margin-right: 24px;
+      }
+    }
+    .cstmtggl {
+      margin-left: 10px;
+  }
+
+
+// @media screen and (max-width:325px)
+// {
+  
+// }
+.header .navbar .navbar-brand img {
+  max-width: 103px;
+}
   .rwrds_sc {
     padding-top: 20px !important;
   }
@@ -2236,8 +2288,3 @@ p.card_pp {
   line-height: 24px;
 }
 
-
-//animations
-
-
-// animation: name duration timing-function delay iteration-count direction fill-mode play-state;

@@ -4,18 +4,29 @@ import { Container } from 'react-bootstrap';
 import { Element } from 'react-scroll';
 import CopyIcon from '@material-ui/icons/ContentCopy';
 import { Link } from 'react-router-dom';
-import { Parallax, Background } from "react-parallax";
+import Plx from 'react-plx';
 
-const image2 =
-  "../static/media/moon_bg.c19cd714.svg";
-// const image2 =
-//   "https://img00.deviantart.net/2bd0/i/2009/276/c/9/magic_forrest_wallpaper_by_goergen.jpg";
+const moon = [
+    {
+      start: 'self',
+      duration: '1500',
+      properties: [
+        {
+          startValue: 0,
+          endValue: 400,
+          unit: 'px',
+          property: 'translateY',
+        },
+      ],
+    }
+  ];
 
 function BannerSection() {
   return (
     <>
-    {/* <Parallax bgImage={image2} strength={-300}> */}
-      <Parallax className='bannersc' bgImage={'../static/media/moon_bg.c19cd714.svg'} strength={-700} >
+  
+      <Box className='bannersc' >
+      <Plx className='img' parallaxData={ moon } > </Plx>
         <Container>
           <Grid container spacing={2} justifyContent='center'>
             <Grid item xs={12}>
@@ -264,8 +275,8 @@ function BannerSection() {
             </Grid>
           </Grid>
         </Container>
-      {/* </Box> */}
-      </Parallax>
+      </Box>
+     
     </>
   );
 }

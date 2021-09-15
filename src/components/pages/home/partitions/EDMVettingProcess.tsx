@@ -9,9 +9,9 @@ const textData = [
       duration: '270',
       properties: [
         {
-          startValue: 80,
+          startValue: 200,
           endValue: 0,
-          unit: 'vh',
+          unit: 'px',
           property: 'translateY',
         },
       ],
@@ -23,9 +23,9 @@ const textData = [
       duration: '250',
       properties: [
         {
-          startValue: 30,
+          startValue: 300,
           endValue: 0,
-          unit: 'vh',
+          unit: 'px',
           property: 'translateY',
         },
       ],

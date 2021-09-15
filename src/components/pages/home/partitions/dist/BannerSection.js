@@ -5,13 +5,9 @@ var core_1 = require("@material-ui/core");
 var react_bootstrap_1 = require("react-bootstrap");
 var react_scroll_1 = require("react-scroll");
 var ContentCopy_1 = require("@material-ui/icons/ContentCopy");
-var react_parallax_1 = require("react-parallax");
-var image2 = "../static/media/moon_bg.c19cd714.svg";
-// const image2 =
-//   "https://img00.deviantart.net/2bd0/i/2009/276/c/9/magic_forrest_wallpaper_by_goergen.jpg";
 function BannerSection() {
     return (react_1["default"].createElement(react_1["default"].Fragment, null,
-        react_1["default"].createElement(react_parallax_1.Parallax, { className: 'bannersc', bgImage: '../static/media/moon_bg.c19cd714.svg', strength: -700 },
+        react_1["default"].createElement(core_1.Box, { className: 'bannersc' },
             react_1["default"].createElement(react_bootstrap_1.Container, null,
                 react_1["default"].createElement(core_1.Grid, { container: true, spacing: 2, justifyContent: 'center' },
                     react_1["default"].createElement(core_1.Grid, { item: true, xs: 12 },

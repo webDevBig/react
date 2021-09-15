@@ -15,7 +15,7 @@ function BannerSection() {
   return (
     <>
     {/* <Parallax bgImage={image2} strength={-300}> */}
-      <Parallax className='bannersc' bgImage={image2} strength={-700} >
+      <Parallax className='bannersc' bgImage={'../static/media/moon_bg.c19cd714.svg'} strength={-700} >
         <Container>
           <Grid container spacing={2} justifyContent='center'>
             <Grid item xs={12}>

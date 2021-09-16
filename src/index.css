@@ -123,20 +123,20 @@ code {
 
 .logo_box img.logo_icon
 {
-  animation: rotateLogo 3s infinite;
+  animation: rotateLogo 2.7s infinite;
 }
 
 @keyframes rotateLogo {
   0% {
-    transform: rotate(45deg);
+    transform: scale3d(0.8, 0.8, 0.8);
       
   }
   50% {
-    transform: rotate(-140deg);
+    transform: scale3d(1.2, 1.2, 1.2);
       
   }
   100% {
-    transform: rotate(45deg);
+    transform: scale3d(0.8, 0.8, 0.8);
       
   }
 }

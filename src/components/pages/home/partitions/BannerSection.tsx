@@ -73,7 +73,7 @@ function BannerSection() {
             </Grid>
 
             <Grid item xs={12}>
-              <Box className='bnnr_sc03' data-aos="zoom-in" data-aos-delay="2100" data-aos-duration="2000">
+              <Box className='bnnr_sc03' data-aos="zoom-in" data-aos-delay="2100" data-aos-duration="1200">
                 <a href='https://twitter.com/coinxpad' className='scla_ic' target="_blank">
                   <Box component='img' src='/images/twttr_ic.svg' />
                 </a>
@@ -86,7 +86,7 @@ function BannerSection() {
               </Box>
             </Grid>
             <Grid item xs={12}>
-              <Box className='bnnr_sc04 trigger' data-aos="zoom-in" data-aos-duration="2000">
+              <Box className='bnnr_sc04 trigger' data-aos="zoom-in" data-aos-duration="1200">
                 <Box className='def_h3'>
                   <Typography component='h3'>Contract Address</Typography>
                   <Box className='h3line' />
@@ -108,21 +108,21 @@ function BannerSection() {
             </Grid>
             <Grid item xs={12}>
               <Box className='clnt_bx'>
-                <Box className="img_wt_cntnt" data-aos="fade-zoom-in" data-aos-duration="1400">
+                <Box className="img_wt_cntnt" data-aos="fade-zoom-in" data-aos-duration="1200">
                   <Box component='img' src='/images/clnt_01.png' alt='' />
                 </Box>
-                <Box className="img_wt_cntnt" data-aos="fade-zoom-in" data-aos-duration="1400" data-aos-delay="400">
+                <Box className="img_wt_cntnt" data-aos="fade-zoom-in" data-aos-duration="1200" data-aos-delay="400">
                   <Box component='img' src='/images/clnt_02.png' alt='' />
                 </Box>
-                <Box className="img_wt_cntnt" data-aos="fade-zoom-in" data-aos-duration="1400" data-aos-delay="800">
+                <Box className="img_wt_cntnt" data-aos="fade-zoom-in" data-aos-duration="1200" data-aos-delay="800">
                   <Box component='img' src='/images/clnt_03.png' alt='' />
                   <Typography component="h6">(soon)</Typography>
                 </Box>
-                <Box className="img_wt_cntnt img_wt_cntnt_v2" data-aos="fade-zoom-in" data-aos-duration="1400" data-aos-delay="1200">
+                <Box className="img_wt_cntnt img_wt_cntnt_v2" data-aos="fade-zoom-in" data-aos-duration="1200" data-aos-delay="1200">
                   <Box component='img' src='/images/clnt_04.png' alt='' />
                   <Typography component="h6">(soon)</Typography>
                 </Box>
-                <Box className="img_wt_cntnt" data-aos="fade-zoom-in" data-aos-duration="1400" data-aos-delay="1600">
+                <Box className="img_wt_cntnt" data-aos="fade-zoom-in" data-aos-duration="1200" data-aos-delay="1600">
                   <Box component='img' src='/images/clnt_05.png' alt='' />
                 </Box>
                 
@@ -139,7 +139,7 @@ function BannerSection() {
                   </Grid>
                   <Grid item xs={12} sm={6} md={4} lg={3} className='ftrinfoHover'>
               
-                    <Box   className='ftrinfo' data-aos="fade-up" data-aos-duration="1100" >
+                    <Box   className='ftrinfo' data-aos="fade-up" data-aos-duration="900" >
                       <Box
                         component='img'
                         src='/images/ftr_ic01.png'
@@ -158,7 +158,7 @@ function BannerSection() {
                   
                   </Grid>
                   <Grid item xs={12} sm={6} md={4} lg={3} className='ftrinfoHover'>
-                    <Box className='ftrinfo' data-aos="fade-up" data-aos-duration="1100" data-aos-delay="300">
+                    <Box className='ftrinfo' data-aos="fade-up" data-aos-duration="900" data-aos-delay="200">
                       <Box
                         component='img'
                         src='/images/ftr_ic02.png'
@@ -175,7 +175,7 @@ function BannerSection() {
                     </Box>
                   </Grid>
                   <Grid item xs={12} sm={6} md={4} lg={3} className='ftrinfoHover'>
-                    <Box className='ftrinfo' data-aos="fade-up" data-aos-duration="1100" data-aos-delay="600">
+                    <Box className='ftrinfo' data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
                       <Box
                         component='img'
                         src='/images/ftr_ic03.png'
@@ -191,7 +191,7 @@ function BannerSection() {
                     </Box>
                   </Grid>
                   <Grid item xs={12} sm={6} md={4} lg={3} className='ftrinfoHover'>
-                    <Box className='ftrinfo' data-aos="fade-up" data-aos-duration="1100" data-aos-delay="900">
+                    <Box className='ftrinfo' data-aos="fade-up" data-aos-duration="900" data-aos-delay="600">
                       <Box
                         component='img'
                         src='/images/ftr_ic04.png'
@@ -208,7 +208,7 @@ function BannerSection() {
                     </Box>
                   </Grid>
                   <Grid item xs={12} sm={6} md={4} lg={3} className='ftrinfoHover'>
-                    <Box className='ftrinfo' data-aos="fade-up" data-aos-duration="1100" >
+                    <Box className='ftrinfo' data-aos="fade-up" data-aos-duration="900" >
                       <Box
                         component='img'
                         src='/images/ftr_ic05.png'
@@ -224,7 +224,7 @@ function BannerSection() {
                     </Box>
                   </Grid>
                   <Grid item xs={12} sm={6} md={4} lg={3} className='ftrinfoHover'>
-                    <Box className='ftrinfo' data-aos="fade-up" data-aos-duration="1100" data-aos-delay="300">
+                    <Box className='ftrinfo' data-aos="fade-up" data-aos-duration="900" data-aos-delay="200">
                       <Box
                         component='img'
                         src='/images/ftr_ic06.png'
@@ -239,7 +239,7 @@ function BannerSection() {
                     </Box>
                   </Grid>
                   <Grid item xs={12} sm={6} md={4} lg={3} className='ftrinfoHover'>
-                    <Box className='ftrinfo' data-aos="fade-up" data-aos-duration="1100" data-aos-delay="600">
+                    <Box className='ftrinfo' data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
                       <Box
                         component='img'
                         src='/images/ftr_ic07.png'
@@ -255,7 +255,7 @@ function BannerSection() {
                     </Box>
                   </Grid>
                   <Grid item xs={12} sm={6} md={4} lg={3} className='ftrinfoHover'>
-                    <Box className='ftrinfo' data-aos="fade-up" data-aos-duration="1100" data-aos-delay="900">
+                    <Box className='ftrinfo' data-aos="fade-up" data-aos-duration="900" data-aos-delay="600">
                       <Box
                         component='img'
                         src='/images/ftr_ic08.png'
